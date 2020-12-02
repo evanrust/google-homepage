@@ -1,0 +1,1 @@
+This is a simple webpage to practice HTML/CSS by recreating the Google homepage
