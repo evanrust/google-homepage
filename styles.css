@@ -1,3 +1,5 @@
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -25,4 +27,35 @@
     outline: none;
      border: 1px solid rgb(189, 189, 189);
      color: rgb(189, 189, 189);
+}
+
+button{
+    background-color: rgb(249, 249, 249);
+    border: none;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.bar div {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.bar-left{
+    flex-grow: 8;
+}
+
+.bar div a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-family: arial, sans-serif;
 }
