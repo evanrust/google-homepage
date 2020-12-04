@@ -1,5 +1,3 @@
-
-
 .container{
     display: flex;
     flex-direction: column;
@@ -108,3 +106,39 @@ width: 30px;
     height: auto;
     width: 25px;
 }
+
+.bar-bottom{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around;   */    
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    background-color: #f1f0f0;
+}
+
+
+.bar-bottom div a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-family: arial, sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bb4 img{
+    height: auto;
+    width: 10px;
+}
+
+.bb3{
+    flex-grow: 2;
+}
+
+.bb5{
+    flex-grow: 2;
+}
+
+
