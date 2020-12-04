@@ -29,17 +29,27 @@
      color: rgb(189, 189, 189);
 }
 
-button{
+.google-button{
     background-color: rgb(249, 249, 249);
     border: none;
+    height: 30px;
+    width: 128px;
     font-family: arial, sans-serif;
     font-size: 10px;
+}
+
+.google-button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 .bar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;  
     padding: 5px;
 }
 
@@ -48,6 +58,7 @@ button{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 10px;
+    align-items: center;    
 }
 
 .bar-left{
@@ -58,4 +69,42 @@ button{
     text-decoration: none;
     color: rgb(128, 128, 128);
     font-family: arial, sans-serif;
+}
+
+.bar-5{
+background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+background-position-x: -132px;
+background-position-y: -38px;
+background-size: 528px 68px;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+box-sizing: border-box;
+color: rgb(0, 0, 0);
+cursor: pointer;
+display: inline-block;
+font-family: arial, sans-serif;
+font-size: 10px;
+height: 30px;
+line-height: normal;
+opacity: 0.55;
+outline-color: rgb(0, 0, 0);
+outline-style: none;
+outline-width: 0px;
+text-align: left;
+text-decoration-color: rgb(0, 0, 0);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+user-select: none;
+vertical-align: middle;
+white-space: nowrap;
+width: 30px;
+}
+
+.bar-6 img{
+    border-radius: 50%;
+    height: auto;
+    width: 25px;
 }
